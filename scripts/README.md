@@ -14,3 +14,5 @@ And add this line in the ***/etc/inittab***
     # ...... some other lines
     gett:235:respawn:/sbin/getty -L 115200 ttymxc0 vt102
     hkt:245:boot:/usr/bin/overwrite-toon-configs.sh
+
+All done!
